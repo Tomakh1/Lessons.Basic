@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Market
+namespace ConsoleApp4
 {
-    interface ILeather
+    interface IAge
     {
-        public bool Leather { get; set; }
-
+        public int Age { get; set; }
     }
 }
